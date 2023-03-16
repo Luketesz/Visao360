@@ -1,0 +1,30 @@
+@import '../abstract/variaveis';
+
+.welcome {
+    align-items: center;
+
+    h2 {
+        display: flex;
+        text-align: center;
+        font-family: $font_sec;
+        font-size: 65px;
+        margin: 1em 1.3em 0 1.4em;
+        color: $verde_escuro;
+    }
+
+    img {
+        display: flex;
+        margin: 0 1em 0 1em;
+        left: 70px;
+        top: 136px;
+    }
+}
+
+.login {
+    a {
+        display: flex;
+        text-decoration: none;
+        font-family: $font_terc;
+        font-size: 2.2em;
+    }
+}
