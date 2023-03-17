@@ -22,9 +22,22 @@
 
 .login {
     a {
-        display: flex;
+        display: inline-block;
         text-decoration: none;
         font-family: $font_terc;
         font-size: 2.2em;
+        color: $verde_escuro;
+        margin: 10px 0 0 65px;
+        
     }
+
+    .cadastro {
+        color: $preto;
+        border: 25px solid $verde_escuro
+    }
+    
+}
+
+.frase {
+    text-align: center;
 }

@@ -17,10 +17,20 @@
 }
 
 .login a {
-  display: flex;
+  display: inline-block;
   text-decoration: none;
   font-family: "NTR", sans-serif;
   font-size: 2.2em;
+  color: #31DD6F;
+  margin: 10px 0 0 65px;
+}
+.login .cadastro {
+  color: #000000;
+  border: 25px solid #31DD6F;
+}
+
+.frase {
+  text-align: center;
 }
 
 html, body {
