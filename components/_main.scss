@@ -32,12 +32,35 @@
     }
 
     .cadastro {
+        border: 25px solid $verde_escuro;
         color: $preto;
-        border: 25px solid $verde_escuro
     }
     
 }
 
 .frase {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.especificacoes {
+    h2 {
+        display: flex;
+        font-size: 1.3em;
+        justify-content: center;
+        color: #31DD6F;
+        font-family: $font_quar;
+        font-weight: bold;
+    }
+
+    h3 {
+        display: flex;
+        text-align: center;
+        padding: 10px 0 0 0;
+        font-family: $font_quar;
+        font-weight: normal;
+    }
 }

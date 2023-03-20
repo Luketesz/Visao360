@@ -25,12 +25,31 @@
   margin: 10px 0 0 65px;
 }
 .login .cadastro {
-  color: #000000;
   border: 25px solid #31DD6F;
+  color: #000000;
 }
 
 .frase {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.especificacoes h2 {
+  display: flex;
+  font-size: 1.3em;
+  justify-content: center;
+  color: #31DD6F;
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: bold;
+}
+.especificacoes h3 {
+  display: flex;
   text-align: center;
+  padding: 10px 0 0 0;
+  font-family: "M PLUS 1", sans-serif;
+  font-weight: normal;
 }
 
 html, body {
