@@ -27,13 +27,16 @@
         font-family: $font_terc;
         font-size: 2.2em;
         color: $verde_escuro;
-        margin: 10px 0 0 65px;
+        margin: 10px 0 0 55px;
         
     }
 
     .cadastro {
         border: 25px solid $verde_escuro;
         color: $preto;
+        border-radius: 50px;
+        padding: 5px 0 0 0;   
+        background-color: $verde_escuro;
     }
     
 }
@@ -59,8 +62,24 @@
     h3 {
         display: flex;
         text-align: center;
-        padding: 10px 0 0 0;
+        padding: 10px 0 50px 0;
         font-family: $font_quar;
         font-weight: normal;
+        font-size: 13px;
+    }
+
+}
+.footer {
+    background-color: $verde_escuro;
+    height: 66px;
+
+    .links {
+        display: flex;
+        justify-content: center;
+        padding: 20px 0 0 0;
+        
+        a {
+            margin: 5px;
+        }
     }
 }
