@@ -1,0 +1,24 @@
+.cabeceira {
+  text-align: center;
+}
+.cabeceira h2 {
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 20px;
+}
+
+.footer {
+  background-color: #31DD6F;
+  height: 66px;
+}
+.footer .links {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0 0;
+}
+.footer .links a {
+  margin: 5px;
+}
+
+html, body {
+  font-family: "M PLUS 1", sans-serif;
+}/*# sourceMappingURL=login.css.map */
