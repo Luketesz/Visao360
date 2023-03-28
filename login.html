@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visão 360 - login</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="/styles/login.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
@@ -17,24 +16,26 @@
 <body>
     <header>
         <section>
-            <img src="images/3-bars.png" alt="menu hamburger">
+            <img src="images/3-bars.png" class="opcoes" alt="menu hamburger">
         </section>
     </header>
     <main>
         <section class="cabeceira">
-            <img src="images/CLEAN FODASE.png" alt="logo png">
+            <a href="/">
+              <img src="images/CLEAN FODASE.png" class="logo" alt="logo png">
+            </a>
             <h2>Insira seus dados</h2>
         </section>
 
         <section class="formulario">
             <form>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" class="input-padrao" name="email" required>
+                <label for="email"></label>
+                <input type="email" id="email" class="input-padrao" name="email" required placeholder="email">
           
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" class="input-padrao" name="senha" required>
+                <label for="senha"></label>
+                <input type="password" id="senha" class="input-padrao" name="senha" required placeholder="senha">
           
-                <button type="submit" class="enviar">Enviar</button>
+                <a href=""><button type="submit" class="enviar">Enviar</button></a>
               </form>
         </section>
     </main>
