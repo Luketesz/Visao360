@@ -1,82 +1,79 @@
-.headercomponents {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 15px 0 15px;
-  background-color: $verde_escuro;
+.selection2{
+  margin: 20px 20px 20px 100px ;
 }
 
-.profile {
-  img {
-    max-width: 100%;
-    height: auto;
-    padding: 3em 0em 0em 9em;
-} 
-  #nome {
-    font-family: $font_terc;
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-  }
-   #empresa {
-    font-family: $font_terc;
-    font-size: 20px;
-    display: inline-block;
-    justify-content: flex-end;
-    padding: 2em 2em 0 3.5em;
-   } 
-
-   #pacote{
-    font-family: $font_terc;
-    font-size: 20px;
-    display: inline-block;
-    justify-content: flex-start;
-    padding: 0 0 0 0;
-    margin: 0 0 0 2em;
-   }
-}
-
-.empresa {
-  font-family: $font_terc;
-}
-
-.Biografia {
-  display: flex;
+.nombre{
   font-family: $font_main;
-  justify-content: start;
-  padding: 2em 4em 1em 4em;
-  margin: 0px;
-  font-size: 2em;
-  justify-content: center;
+  margin: 20px 0 40px 0px;
+  font-size: 24px;
 }
+
+.nombre1{
+  font-family: $font_main;
+  margin: 15px 0 14px 141px;
+  font-size: 24px;
+}
+
 .bio{
-  display: flex;
-  border: 20px;
+  margin: 0 0 0 22px;
+  padding: 110px 0 0 181px;
   border-radius: 20px;
-  background: $verde_claro;
-  padding: 4em 4em 4em 13.4em;
-  text-align: start;
- 
+  background-color: $verde_claro;
+  writing-mode:horizontal-tb;
+  border: none;
 }
-h3 {
-  display: flex;
-  font-family: $font_terc;
-  justify-content: center;
-  padding: 2em 0 2em 0;
-}
- 
-h2 {
-  padding: 0 0 2em 0;
-  display: flex;
-  text-align: center;
-  font-family: $font_main;
-   
-}
-.consulta {
-  font-family: $font_main;
-}
-.foto {
-  display: flex;
-  margin: 0 0 0 2em ;
 
+.package{
+  margin: 20px 20px 60px 20px;
+  font-family: $font_main;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid black;
+
+}
+
+.plan{
+  background-color: $verde_claro;
+  margin: 14px 61px 16px;
+  padding: 17px 17px 16px 20px;
+  border-radius: 20px;
+}
+
+.pacck{
+  background-color: #ACAAAA;
+  margin: 0px 163px -55px 0px;
+  padding: 17px 17px 16px 20px;
+  border-radius: 20px;
+}
+
+.dolar{
+  background-color: $verde_escuro;
+  padding: 20px 8px 21px 13px;
+  margin: 0px 1px 16px 190px;
+  border-radius: 20px;
+  }
+
+.text12{
+  background-color: $verde_claro;
+  border-radius: 25px;
+  margin: 0 0 24px 0;
+}
+
+.consulta{
+  display: absolute;
+    background-color: $verde_claro;
+    color: $preto;
+    font-size: 25px;
+    padding: 25px 13px 21px 12px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 90%;
+    margin: 21px 0 20px 30px;
+    text-decoration: none;
+    font-family: $font_main;
+}
+.foto{
+  margin: 20px 0 0 35px;
 }
 
